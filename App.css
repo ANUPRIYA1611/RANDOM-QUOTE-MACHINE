@@ -1,0 +1,50 @@
+#a{
+   font-size: 40px;
+   font-family:serif;
+   align:center;
+   margin-left: 400px;
+   color:white;
+}
+#b{
+  margin-top: 135px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-left: 100px;
+}
+#but{
+  width:15%;
+  color:rgb(20, 20, 20);
+  padding: 20px;
+  margin-top: 13%;
+  margin-left: 44%;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor:pointer;
+  font-size: 120%;
+  background-color:burlywood;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#but:hover{
+  background-color:rgb(219, 195, 163);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+body{
+  background-image: url("../src/Components/PIC/iPad\ screensavers\ \ _\ Heyitsme_katherine.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#card{
+  background-color: whitesmoke;
+  width:550px;
+  height:100px;
+  perspective: 1000px;
+  position: absolute;
+  left:29%;
+  right:30%;
+  border:none;
+  border-radius: 5px;
+  padding: 24px;
+}
